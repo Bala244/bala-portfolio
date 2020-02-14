@@ -4,11 +4,18 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js -e js,hbs"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bala244/bala-portfolio.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bala244/bala-portfolio/issues"
+  },
+  "homepage": "https://github.com/Bala244/bala-portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.0",
