@@ -4,12 +4,11 @@
   font-family: "montserrat",sans-serif;
 }
 .body{
-  height: 100%;
-  margin: 10%;
+  
 }
 .header{
   height: 100px;
-  background: #df3a08;
+  background: #34495e;
   padding: 0 20px;
   color: #fff;
 }
@@ -19,7 +18,7 @@
   text-transform: uppercase;
 }
 
-.menu{
+.menu{ 
   float: right;
   line-height: 100px;
 }
@@ -30,7 +29,7 @@
   padding: 0 10px;
   transition: 0.4s;
 }
-/* .show-menu-btn,.hide-menu-btn{
+.show-menu-btn,.hide-menu-btn{
   transition: 0.4s;
   font-size: 30px;
   cursor: pointer;
@@ -41,18 +40,18 @@
 }
 .show-menu-btn i{
   line-height: 100px;
-} */
-.menu a:hover
-/* .show-menu-btn:hover,
-/* .hide-menu-btn:hover */{
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
   color: #3498db;
 }
 
-/* #chk{
+#chk{
   position: absolute;
   visibility: hidden;
   z-index: -1111;
-} */
+}
 
 /* .content{
   padding: 0 20px;
@@ -66,10 +65,10 @@
   text-align: justify;
 } */
 
-@media screen and (max-width:800px) {
-  /* .show-menu-btn,.hide-menu-btn{
+@media screen and (max-width:1024 px) {
+  .show-menu-btn,.hide-menu-btn{
     display: block;
-  } */
+  }
   .menu{
     position: fixed;
     width: 100%;
@@ -86,14 +85,14 @@
     display: block;
     padding: 20px;
   }
-  /* .hide-menu-btn{
+  .hide-menu-btn{
     position: absolute;
     top: 40px;
     right: 40px;
   }
   #chk:checked ~ .menu{
     right: 0;
-  } */
+  }
 }
 .image-container{
   text-align: center;
@@ -180,6 +179,7 @@ color: #fff;
 }
 .about h1{
   color: rgb(6, 240, 240);
+  margin-top: 5%;
   padding-top: 2%;
 }
 .image-container a{
@@ -196,6 +196,5 @@ color: #fff;
 .image-container a:hover{
   background-color: transparent;
   color: #fff;
-  
-  }
+    }
 
