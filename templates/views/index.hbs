@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 
 <html>
-<head>
 
- <style>
+<head>
+    
+    <style>
     body{
     
-          background-image: url(/image/pb.jpg);
-      background-size: cover;
-   background-attachment: fixed;
-    }
- </style>
+   background-image: url(/image/pb.jpg);
+   width: auto;
+   height: auto;
+    }   
+    </style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/css/style.css">
-
 </head>
-
 
 <body>
       {{>header}}
+    {{!-- <div class="main-content">
+        <img class="circle" src="/image/img.jpg">
+    </div> --}}
+  
 
-      <div class = "image-container">
-          <img src="/image/bnk.png" width="250px"
+  <div class = "image-container">
+   
+<div>     
+    <img src="/image/bnk.png" width="250px"
   height="250px">
-      <p class="name">I Am Bala Nagendra Kumar N</p>
-      <p class="sub">web developer</p>
-      <p class="sub"><a href="/about"><img src="/image/front.png" height="50px"
-      width="50px"></a></p>
-      </div>
 
+<p class="name">I Am Bala Nagendra Kumar N</p>
+<p class="name">Web Developer</p>
+  </div>
+
+  </div>
+  <div class = "image-container">
+        <p class="sub"><a href="/about"><img src="/image/front.png" height="50px"
+      width="50px"></a></p>
+  </div>
 </body>
 
 
