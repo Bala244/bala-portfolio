@@ -62,7 +62,7 @@
   text-align: justify;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:720px) {
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }
@@ -233,7 +233,7 @@ color: #fff;
 
 .container {
   margin-left: 3%;
-    width: 400px;
+    width: 500px;
     padding: 20px;
     color: #f5eeee;
     font-family: cursive;
