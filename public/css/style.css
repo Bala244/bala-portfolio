@@ -116,6 +116,7 @@
   color: rgb(247, 245, 243);
   font-size: xx-large;
   font-family: cursive;
+  margin-top: 3%;
 }
 .sub{
   color: antiquewhite;
@@ -232,7 +233,7 @@ color: #fff;
 }
 
 .container {
-  margin-left: 3%;
+  margin-left: 6%;
     width: auto;
     color: #f5eeee;
     font-family: cursive;
@@ -242,7 +243,7 @@ color: #fff;
 li {
     position: relative;
     list-style: none;
-    margin: 50px 0;
+    margin: 100px 0;
     font-weight: 800;
     text-transform: uppercase;
 }
