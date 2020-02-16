@@ -233,8 +233,7 @@ color: #fff;
 
 .container {
   margin-left: 3%;
-    width: 500px;
-    padding: 20px;
+    width: auto;
     color: #f5eeee;
     font-family: cursive;
     font-size: x-large;
