@@ -233,7 +233,7 @@ color: #fff;
 
 .container {
   margin-left: 3%;
-    width: 500px;
+    width: 400px;
     padding: 20px;
     color: #f5eeee;
     font-family: cursive;
@@ -253,7 +253,7 @@ li:before {
     position: absolute;
     top: calc(100% + 10px);
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 15px;
     background-color: #fff;
     border-radius: 1000px;
@@ -279,7 +279,7 @@ li.html:after {
 
 @keyframes html {
     to {
-        width: 90%;
+        width: 40%;
     }
 }
 
@@ -289,7 +289,7 @@ li.css:after {
 
 @keyframes css {
     to {
-        width: 90%;
+        width: 40%;
     }
 }
 
@@ -299,7 +299,7 @@ li.js:after {
 
 @keyframes js {
     to {
-        width: 75%;
+        width: 30%;
     }
 }
 
@@ -309,6 +309,6 @@ li.oracle:after {
 
 @keyframes oracle {
     to {
-        width: 60%;
+        width: 20%;
     }
 }
