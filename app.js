@@ -22,36 +22,8 @@ app.get('', (req, res) => {
     })
 })
 
-app.get('/about', (req, res) => {
-    res.render('about', {
-        title: 'About Me',
-    })
-})
 
 
-app.get('/home', (req, res) => {
-    res.render('home', {
-        title: 'About Me',
-        name: 'BNK'
-    })
-})
-
-
-
-app.get('/contact', (req, res) => {
-    res.render('contact', {
-        title: 'About Me',
-        name: 'BNK'
-    })
-})
-
-
-app.get('/projects', (req, res) => {
-    res.render('projects', {
-        title: 'My Projects',
-        name: 'BNK'
-    })
-})
 
 
 app.listen(port, () => {

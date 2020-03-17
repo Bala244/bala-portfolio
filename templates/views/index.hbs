@@ -1,47 +1,150 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  </head>
+  <body>
 
+  <div class="header">
+    <h2 class="logo">BNK</h2>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
+
+<!-- 
+<div class="content">
+    <center>
+      <img src="img.jpg" alt="">
+    </center> -->
+
+
+    </div>
 <head>
     
     <style>
     body{
     
-    background-image: url(/image/pb.jpg);
-   background-repeat: no-repeat;
-   background-size: 100%;
+   background-image: url(/image/pb.jpg);
+   background-size: cover;
    background-attachment: fixed;
     }   
     </style>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-      {{>header}}
     {{!-- <div class="main-content">
         <img class="circle" src="/image/img.jpg">
     </div> --}}
   
+                          {{!-- section home --}}
 
+<section id="home">
   <div class = "image-container">
-   
 <div>     
-    <img src="/image/profile.png" width="250px"
+    <img src="/image/pro.jpeg" width="250px"
   height="250px">
 
-<p class="name">I Am Bala Nagendra Kumar N</p>
+<p class="name">I Am <span>Bala Nagendra Kumar N</span></p>
 <p class="name">Web Developer</p>
   </div>
+ </div>
+ </section>
+
+                              {{!-- sectiom about --}}
+
+<section  id="about">
+<div class = "image-container">
+<div>     
+<p class="name">Hi! I am Bala, a <span>Web Developer</span> focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2018. I enjoy creating beautifully designed, intuitive and functional websites</p>
+  </div>
 
   </div>
-  <div class = "image-containerr">
-        <p class="sub"><a href="/about"><img src="/image/front.png" height="50px"
-      width="50px"></a></p>
-  </div>
+<div class="skills">
+  <p>My Skills</p>
+</div>
+<body>
+
+<div class="skills-section">
+
+
+<div class="what">HTML</div>
+<div class="skill-container">
+  <div class="skill s1 load"><span>75%</span></div>
+</div>
+<div class="what">CSS</div>
+<div class="skill-container">
+  <div class="skill s2 load"><span>70%</span></div>
+</div>
+<div class="what">NodeJs</div>
+<div class="skill-container">
+  <div class="skill s3 load"><span>65%</span></div>
+</div>
+<div class="what">oracle</div>
+<div class="skill-container">
+  <div class="skill s4 load"><span>45%</span></div>
+</div>
+
+</div>
+
 </body>
 
+    </section>
+
+                                  {{!-- section projects --}}
+
+  <section id="projects">
+  
+<div class = "image-container">
+   
+<div>     
+    <img src="/image/projects.gif" width="250px"
+  height="250px">
+ 
+
+<h1><a href="http://bnk-weather-application.herokuapp.com/">Weather website</a></h1>
+<p class="name"> A Web Application Used To Forecast Weather of any location (NodeJs,HTML,CSS)</p>
+<h1><a href="https://bnk-chat-app.herokuapp.com/chat.html?username=BNK&room=bnk">Chat Application</a> </h1>
+<p class="name"> A Real Time Chat-Application On The Web Built Using (NodeJs,HTML,CSS)</p>
+</div>
+
+
+
+
+</body>
+
+</section>
+
+
+                                {{!-- footer --}}
+
+<section id="contect">
+  <div class="footer">
+  <h2>balank244@gmail.com</h2>
+     <img src=""><h2>9080099415</h2>
+  </div>
+</section>
+
+</body>
+
+
+</body>
+</body>
 
 </html>
