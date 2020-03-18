@@ -5,7 +5,7 @@
 }
 .header{
   height: 100px;
-  background: #34495e;
+  background: #223149;
   padding: 0 20px;
   color: #fff;
   position: sticky;
@@ -78,8 +78,9 @@
     text-align: center;
     padding: 80px 0;
     line-height: normal;
-    transition: 0.7s;
+    transition: 0.5s;
   }
+  
   .menu a{
     display: block;
     padding: 20px;
@@ -119,6 +120,7 @@ span{
   font-family: monospace;
   font-weight: 500;
   font-size: larger;
+  
 }
 .namee{
   color: #3498db;
@@ -309,4 +311,13 @@ color: #fff;
 .image-container a{
   color: #049bf1;
   font-weight: 5000;
+}
+
+@keyframes moveToLeft {
+  0%{
+    margin-top: -100px;
+  }
+  100%{
+    margin-top: 0px;
+  }
 }
