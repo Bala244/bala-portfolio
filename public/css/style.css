@@ -1,7 +1,9 @@
 *{
   margin: 0;
   padding: 0;
+  
   font-family: "montserrat",sans-serif;
+
 }
 body{
   background-image: url(/image/bg.jpg);
@@ -9,25 +11,32 @@ body{
   background-attachment: fixed;
   
 }
-.header{
-  height: 100px;
-  background: #223149;
-  padding: 0 20px;
-  color: #fff;
+nav{
   position: sticky;
   top: 0;
 }
+.header{
+  height: 70px;
+  background: #223149;
+  padding: 0 20px;
+  color: #fff;
+  position: relative;
+}
 .logo{
-  line-height: 100px;
+  position: relative;
+  line-height: 70px;
   float: left;
   text-transform: uppercase;
+  color: white;
 }
 
 .menu{
+  position: relative;
   float: right;
-  line-height: 100px;
+  line-height: 70px;
 }
 .menu a{
+  position: relative;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -44,12 +53,13 @@ body{
   float: right;
 }
 .show-menu-btn i{
-  line-height: 80px;
+  line-height: 70px;
 }
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
   color: #3498db;
+  
 }
 
 #chk{
@@ -58,25 +68,13 @@ body{
   z-index: -1111;
 }
 
-.content{
-  padding: 0 20px;
-}
-.content img{
-  width: 100%;
-  max-width: 700px;
-  margin: 20px 0;
-}
-.content p{
-  text-align: justify;
-}
-
 @media screen and (max-width:720px) {
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }
   
 .header{
-  height: 80px;
+  height: 70px;
   width: 95%;
   background: #223149;
   padding: 0 20px;
@@ -85,15 +83,17 @@ body{
   top: 0;
 }
 .logo{
-  line-height: 80px;
+  line-height: 70px;
   float: left;
   text-transform: uppercase;
 }
-
+.footer{
+  width: 101%;
+}
   .menu{
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background: #333;
     right: -100%;
     top: 0;
@@ -122,7 +122,7 @@ body{
     font-weight: bolder;
   }  
   
-}
+} 
 
 .image-container{
   text-align: center;
@@ -246,7 +246,7 @@ span{margin: auto}
 
 .load{
   animation: loading 1s linear;
-}
+} 
 @keyframes loading{
   0%{width: 0%}
 }
@@ -353,6 +353,7 @@ color: #fff;
   font-weight: 5000;
 }
 
+
 @keyframes moveToLeft {
   0%{
     margin-top: -100px;
@@ -412,4 +413,9 @@ color: #fff;
 }
 .icon-link .iconbtn:hover{
   color: rgb(14, 13, 13);
+}
+.nav-wrapper{
+  position:"sticky";
+  background: #223149;
+
 }
