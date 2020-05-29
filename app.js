@@ -20,7 +20,7 @@ app.get('', (req, res) => {
         name: 'BNK'
     })
 })
-app.get('/home', (req, res) => {
+app.get('/contact', (req, res) => {
     res.render('', {
         
     })
