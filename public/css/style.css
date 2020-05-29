@@ -68,14 +68,14 @@ nav{
   z-index: -1111;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:700px) {
   .show-menu-btn,.hide-menu-btn{
     display: block;
   }
   
 .header{
   height: 70px;
-  width: 95%;
+  width: 98%;
   background: #223149;
   padding: 0 20px;
   color: #fff;
@@ -88,7 +88,7 @@ nav{
   text-transform: uppercase;
 }
 .footer{
-  width: 101%;
+  width: 104%;
 }
   .menu{
     position: fixed;
@@ -419,3 +419,8 @@ color: #fff;
   background: #223149;
 
 }
+
+
+
+
+

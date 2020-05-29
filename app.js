@@ -20,6 +20,42 @@ app.get('', (req, res) => {
         name: 'BNK'
     })
 })
+app.get('/home', (req, res) => {
+    res.render('', {
+        
+    })
+})
+app.get('/projects', (req, res) => {
+    res.render('', {
+        
+    })
+})
+app.get('/about', (req, res) => {
+    res.render('', {
+        
+    })
+})
+
+// app.get('/home#about', (req, res) => {
+//     res.render('home#about', {
+        
+//     })
+// })
+// app.get('/projects#about', (req, res) => {
+//     res.render('projects#about', {
+        
+//     })
+// })
+// app.get('/home#projects', (req, res) => {
+//     res.render('home#projects', {
+        
+//     })
+// })
+// app.get('/home#contact', (req, res) => {
+//     res.render('home#contact', {
+        
+//     })
+// })
 
 
 
